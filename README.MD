@@ -7,7 +7,7 @@ Bem-vindo ao teste técnico para a vaga de desenvolvedor na Solvace. Este teste 
 ##Instruções Gerais
 
 	1.	Clone este repositório para sua máquina local.
-	2.	Crie uma branch local com o nome techcase/<seu-nome-sobrenome>. Exemplo: techcase/John-Carter.
+	2.	Crie uma branch local, a partir da "master", com o nome techcase/<seu-nome-sobrenome>. Exemplo: techcase/John-Carter.
 	3.	Resolva todas as questões abaixo na sua branch.
 	4.	Faça commit/push e abra um Pull Request (PR) para a branch release-candidate.
 	5.	Anexe o link do seu PR na resposta deste e-mail para enviar o teste.
