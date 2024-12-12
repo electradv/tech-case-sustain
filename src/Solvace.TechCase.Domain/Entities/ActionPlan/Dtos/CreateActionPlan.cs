@@ -23,10 +23,18 @@ namespace Solvace.TechCase.Domain.Entities.ActionPlan.Dtos
         [MaxLength(4000)]
         [MinLength(3)]
         public required string Description { get; set; }
-
+        /// <summary>
+        /// Validação do tipo do enum
+        /// </summary>
+        [EnumDataType(typeof(EActionPlanStatus))]
         public EActionPlanStatus StatusId { get; set; }
+        /// <summary>
+        /// Type name of plan
+        /// </summary>
+        [MaxLength(30)]
+        public string TypeName { get; set; }
 
-        
+
 
     }
 }
